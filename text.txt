@@ -1,0 +1,334 @@
+Create a professional, polished, playable 3D tactical sniper game based on the following concept.
+
+GAME CONCEPT:
+The game takes place in a long outdoor battlefield divided by a wide river. Two opposing concrete defensive walls are positioned on opposite sides of the river, approximately 100 meters apart. Each wall represents a team’s defensive position.
+
+The player is positioned behind one wall together with one AI-controlled friendly robot teammate. On the opposite side, there are two enemy AI-controlled robots. The player and all AI characters are equipped with sniper rifles.
+
+CORE GAMEPLAY:
+The game should be a turn-based tactical sniper combat experience.
+
+Each side gets a limited firing opportunity during its turn. The player’s team and the enemy team alternate turns.
+
+During the enemy turn, the two enemy snipers hide behind their defensive wall. The player cannot directly see their bodies through the wall.
+
+However, enemy movement should create a tactical visual clue:
+- If an enemy moves behind the wall, a subtle green silhouette/shadow should become visible on the surface of the wall.
+- The silhouette should accurately indicate the approximate position and movement of the enemy behind the wall.
+- If the enemy remains completely still, no silhouette should be visible.
+- The player must observe these movement clues and predict the enemy’s position before firing.
+
+DESTRUCTIBLE WALL MECHANIC:
+The defensive walls should be partially destructible.
+
+When the player fires:
+- The bullet should physically impact the wall.
+- A small section of concrete should break or become damaged at the impact point.
+- Visible bullet holes, cracks, concrete fragments and dust should appear.
+- Repeated shots should gradually create more damage.
+- Wall destruction should remain visually consistent with the actual bullet impacts.
+- The wall should provide tactical cover, but it should not be completely indestructible.
+
+ENEMY DAMAGE SYSTEM:
+Every character should have 200 total HP.
+
+Body damage should be location-based.
+
+Examples:
+- Headshot: instant elimination.
+- Body/limb hit: approximately 150 HP damage.
+- A second successful damaging hit can eliminate the character once HP reaches zero.
+- The UI should clearly display remaining HP.
+- Characters should react naturally when hit.
+- When HP reaches zero, the character should be knocked out/eliminated with an appropriate animation.
+
+The damage system should feel tactical rather than arcade-like.
+
+ENEMY AIM WARNING SYSTEM:
+When enemies are preparing to fire at the player, the player should receive a visual warning.
+
+A red laser-like targeting line should appear on the player's side of the battlefield, showing the approximate direction/target area of the enemy sniper.
+
+The red targeting indicator should:
+- Move as the enemy adjusts their aim.
+- Give the player a short reaction window.
+- Encourage the player to move or reposition behind cover.
+- Disappear or resolve when the enemy fires.
+
+The player must use movement and positioning to avoid incoming sniper fire.
+
+ENEMY FIRING MECHANIC:
+Each enemy should have one firing opportunity during their turn.
+
+If an enemy fires:
+- If the shot hits the player, apply appropriate damage.
+- If the shot misses, the enemy loses that firing opportunity.
+- A missed shot should create an impact effect on the environment.
+- After the enemy firing phase is completed, control returns to the player's team.
+
+PLAYER TURN:
+When the player's turn begins:
+- Allow the player to freely inspect the battlefield.
+- Move the sniper crosshair precisely.
+- Aim through a realistic sniper scope.
+- Zoom in and out smoothly.
+- Adjust the aim horizontally and vertically.
+- Search for enemy movement clues.
+- Identify enemy positions using the green wall silhouettes.
+- Fire one carefully calculated sniper shot.
+
+The sniper scope should feel realistic and responsive.
+
+The crosshair/aiming system should support smooth precision movement and should not feel clumsy or delayed.
+
+FRIENDLY AI ROBOT:
+The player has one AI-controlled robot teammate.
+
+The friendly robot should:
+- Have a high-quality 3D character model.
+- Carry a realistic sniper rifle.
+- Have its own HP.
+- Take cover intelligently.
+- Observe enemy movement.
+- Participate in the team's turn.
+- Occasionally fire at enemies according to the tactical situation.
+- React to being hit.
+- Be eliminated if its HP reaches zero.
+- Never behave randomly in a way that breaks the gameplay.
+
+The friendly robot should feel like an actual tactical teammate rather than a decorative NPC.
+
+ENEMY AI:
+The enemies should be intelligent tactical sniper robots.
+
+They should:
+- Take cover behind the wall.
+- Remain still when appropriate.
+- Move strategically.
+- Occasionally reposition.
+- Avoid exposing themselves unnecessarily.
+- Aim at the player and friendly robot.
+- Generate the red targeting warning before firing.
+- Make both accurate and inaccurate shots depending on difficulty.
+- Become more challenging as levels progress.
+
+The AI should avoid repetitive patterns so that every round feels different.
+
+LEVEL PROGRESSION:
+The game should contain progressively harder levels.
+
+As the player advances:
+- Enemy AI becomes smarter.
+- Enemy movement becomes less predictable.
+- Enemy accuracy gradually increases.
+- Enemy reaction time improves.
+- Battlefield conditions become more challenging.
+- Additional enemy units may appear.
+- Enemy positions and movement patterns become increasingly difficult to predict.
+- Some levels should contain fewer enemies but highly intelligent enemies.
+- Other levels should contain more enemies with different tactical behavior.
+
+Difficulty should scale naturally rather than simply increasing enemy HP.
+
+RANDOMIZATION:
+Every level should contain controlled procedural/random variation.
+
+Randomize elements such as:
+- Enemy starting positions.
+- Enemy movement patterns.
+- Which enemy moves first.
+- Enemy hiding positions.
+- Enemy firing accuracy.
+- Environmental conditions.
+- Minor battlefield details.
+- Enemy behavior patterns.
+
+The game should remain fair and solvable while ensuring that repeated playthroughs do not feel identical.
+
+3D CHARACTER DESIGN:
+Use high-quality professional 3D character models.
+
+The player, friendly robot and enemy robots should have:
+- Detailed 3D models.
+- Proper proportions.
+- High-quality materials.
+- Realistic tactical equipment.
+- Detailed sniper rifles.
+- Professional animations.
+- Idle animations.
+- Walking/movement animations.
+- Aiming animations.
+- Firing animations.
+- Hit reactions.
+- Knockout/elimination animations.
+
+The visual quality should feel like a polished modern tactical game rather than a basic prototype.
+
+WEAPON SYSTEM:
+Use realistic-looking sniper rifles.
+
+The sniper should include:
+- Detailed 3D weapon model.
+- Realistic scope.
+- Smooth aiming.
+- Scope zoom.
+- Proper recoil.
+- Muzzle flash.
+- Bullet trail where appropriate.
+- Bullet impact effects.
+- Concrete debris when hitting walls.
+- Different impact effects for walls and characters.
+- Realistic reload behavior where appropriate.
+
+The weapon should feel powerful, precise and satisfying to use.
+
+CAMERA AND CONTROLS:
+Create intuitive controls suitable for both mobile and desktop gameplay.
+
+Mobile:
+- Touch-based aiming.
+- Smooth drag controls.
+- Dedicated fire button.
+- Scope/zoom control.
+- Movement/reposition controls.
+- Clear tactical UI.
+
+Desktop:
+- Mouse-based aiming.
+- Keyboard movement.
+- Mouse click firing.
+- Smooth camera control.
+
+Controls must be responsive and optimized for precision sniper gameplay.
+
+UI/UX:
+Create a clean, premium tactical game interface.
+
+Display:
+- Player HP.
+- Friendly robot HP.
+- Enemy information when appropriately revealed.
+- Turn indicator.
+- Current level.
+- Ammunition/firing status.
+- Scope interface.
+- Tactical warning indicators.
+- Progress information.
+
+Avoid excessive UI clutter.
+
+The interface should feel modern, professional and immersive.
+
+ENVIRONMENT:
+Create a realistic outdoor battlefield surrounding the river.
+
+Include:
+- A long flowing river.
+- Water movement and reflections.
+- Two large concrete defensive walls.
+- Concrete damage and debris.
+- Natural terrain.
+- Grass and vegetation.
+- Rocks and environmental details.
+- Atmospheric lighting.
+- Realistic shadows.
+- Subtle environmental movement.
+
+The river should remain visually important throughout the level.
+
+AUDIO:
+Create immersive environmental and gameplay audio.
+
+Include:
+- Flowing water ambience.
+- Wind/environmental ambience.
+- Character movement sounds.
+- Weapon handling sounds.
+- Scope/aiming sounds where appropriate.
+- Powerful sniper firing sound.
+- Bullet impact sounds.
+- Concrete breaking sounds.
+- Debris sounds.
+- Hit confirmation sounds.
+- Damage/knockout audio cues.
+- Tactical warning sounds for incoming enemy aim.
+
+Audio should respond dynamically to gameplay and should not feel repetitive.
+
+VISUAL EFFECTS:
+Use polished effects for:
+- Muzzle flash.
+- Bullet trails.
+- Bullet impacts.
+- Concrete fragments.
+- Dust.
+- Smoke.
+- Water impacts.
+- Hit reactions.
+- Subtle environmental particles.
+- Scope effects.
+- Red enemy targeting laser.
+- Green enemy movement silhouette.
+
+Keep effects visually impressive while maintaining smooth performance.
+
+PERFORMANCE:
+The game must be optimized for smooth gameplay.
+
+Prioritize:
+- Fast loading.
+- Responsive controls.
+- Stable frame rate.
+- Efficient 3D assets.
+- Optimized lighting and effects.
+- Efficient AI behavior.
+- Proper object management.
+- Minimal unnecessary processing.
+
+The final game should feel like a real playable product, not a technical demo.
+
+GAME FLOW:
+1. Start the game.
+2. Display a professional tactical introduction/tutorial.
+3. Enter Level 1.
+4. Player and friendly robot take defensive positions.
+5. Enemy robots take positions on the opposite wall.
+6. Enemy movement creates green silhouettes only when they move behind cover.
+7. Player studies the movement clues.
+8. Enemy turn begins and enemies can aim at the player.
+9. Red targeting indicators warn the player of incoming sniper aim.
+10. Player can reposition to avoid being hit.
+11. Enemy fires one shot per available firing opportunity.
+12. Player's turn begins.
+13. Player aims through the sniper scope.
+14. Player fires one tactical shot.
+15. Bullet damages the wall and/or enemy depending on impact.
+16. HP and character state update immediately.
+17. Friendly AI teammate participates in the tactical exchange.
+18. Turns continue until one team is eliminated.
+19. Winning the round unlocks the next level.
+20. Difficulty increases progressively.
+
+WIN/LOSS CONDITIONS:
+The player's team wins when all enemy units are eliminated.
+
+The player loses when the player and friendly teammate are both eliminated.
+
+Provide clear but professional victory and defeat screens with options to:
+- Continue.
+- Retry.
+- Restart level.
+- Return to level selection.
+
+OVERALL EXPERIENCE:
+The final result should feel like a premium tactical sniper strategy game focused on observation, prediction, precision aiming, destructible cover, turn-based combat and intelligent AI.
+
+The most important gameplay loop should be:
+
+OBSERVE → DETECT MOVEMENT → PREDICT POSITION → AIM → FIRE → DAMAGE COVER/ENEMY → SURVIVE ENEMY AIM → REPOSITION → REPEAT.
+
+Do not make the game feel like a simple shooting gallery.
+
+Make positioning, timing, observation and precision the core of the experience.
+
+Build the game as a complete playable experience with polished 3D visuals, realistic sniper mechanics, intelligent AI, destructible walls, responsive controls, immersive audio, progressive difficulty and randomized tactical situations.
